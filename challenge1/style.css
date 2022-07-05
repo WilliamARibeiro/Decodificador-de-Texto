@@ -5,6 +5,8 @@
   font-family: 'Inter', sans-serif;
   background-image: url(images/pikachu.jpg);
   background: cover no-repeat;
+  display: flex;
+  align-items: justify;
 
   
 }
