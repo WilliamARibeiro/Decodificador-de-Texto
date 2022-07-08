@@ -578,7 +578,7 @@ main{
       left:2rem;
       top:37rem;
       padding:0;
-      height:6rem;
+      height:40rem;
   
     }
     .message-box-div{
@@ -602,7 +602,7 @@ main{
       
     }
     .message-box-div img{
-      display: none;
+      
     }
     .btn-copiar{
       top:8rem;
