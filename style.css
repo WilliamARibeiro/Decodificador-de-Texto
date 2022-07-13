@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  background: url(images/psi.webp);
+  background-repeat: no-repeat;
+  
+
+
+  
+}
+
+body {
+   
+   
+
+}
+
+.div-principal {
+
+}
+
+
+.main {
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+
+  
+  /* Light blue/light-blue-100 */
+  
+}
+
+.logo{
+  position: absolute;
+  left: 20px;
+  right: 20%;
+  top: 15px;
+  bottom: 0%;
+  border-radius: 50%;
+
+}
+
+.main h2 {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  padding-left: 15%;
+  margin-left: 0%;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  transition: 1s all;
+
+}
+
+.main h2:hover {
+   color: purple;
+
+}
+
+
+.titulo {
+  padding: 15px;
+  width: 30vw;
+  margin: auto;
+
+}
+
+
+
+.text-input {
+  /* Digite seu texto */
+  text-transform:lowercase;
+  position: absolute;
+  width: 600px;
+  height: 405px;
+  left: 15%;
+  top: 168px;
+  padding: 20px;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 150%;
+  justify-content: baseline;
+  /* identical to box height, or 48px */
+  resize: none;
+
+  /* Dark blue/dark-blue-300 */
+
+  color: white;
+  background: transparent;
+  border: solid 2px purple;
+  border-radius: 32px;
+  transition: 1s all;
+  }
+::placeholder { color: white; }
+
+::placeholder:hover {
+  color: purple;
+}
+.text-input:hover {
+  color: purple;
+}
+
+.text-input:focus { 
+    border: none;
+    outline: none;
+   }
+
+.message-box{
+  position: absolute;
+  width: 400px;
+  height: 750px;
+  left: 70%;
+  top: 20px;
+  padding-left: 20px;
+  padding-top: 80px;
+  /* White */
+
+  background: whitesmoke;
+  /* shadow */
+
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+  border-radius: 32px;
+  }
+.message-box h2{
+  position: relative;
+  width: 336px;
+  height: 58px;
+  left: -20px;
+  top: 0px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 120%;
+  /* or 29px */
+
+  text-align: center;
+
+  /* Gray/gray-500 */
+
+  color: darkblue;
+  background: whitesmoke;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 16px 0px;
+}
+
+.message-box h3{
+  position: static;
+  width: 336px;
+  height: 48px;
+  left: 0px;
+  top: 74px;
+  padding-top: 30px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+
+  text-align: center;
+
+  /* Gray/gray-300 */
+
+  color: darkblue;
+  background: whitesmoke;
+
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 16px 0px;
+  transition: 1s all;
+}
+
+.message-box h3:hover {
+  color: purple;
+}
+
+.message-box-div, .message-box-div img {
+  padding-top: 10px;
+  background: whitesmoke;
+}
+
+.img-alerta{
+  position: absolute;
+  left: 3%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+}
+ label {
+  position: static;
+  width: auto;
+  height: 18px;
+  left: 24px;
+  top: 0px;
+  padding-left: 30px;
+  font-weight: 600;
+  
+  font-family: Inter;
+  font-style: normal;
+  font-size:20px;
+  line-height: 100%;
+  background: transparent;
+
+  /* identical to box height, or 18px */
+  
+  
+  /* Gray/gray-300 */
+  color: white;
+ }
+.form-group{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  background: transparent;
+  
+  position: absolute;
+  width: auto;
+  height: 18px;
+  left: 13%;
+  top: 651px;
+  
+ }
+ 
+.div-mensaje{
+  position: absolute;
+  width: 400px;
+  height: 781px;
+  left: 60px;
+  top: 52px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 150%;
+  /* or 36px */
+  resize: none;
+
+  /* Gray/gray-400 */
+
+  color: purple;
+  border:none;
+  background:transparent;
+}
+.div-mensaje:focus { 
+  border: none;
+  outline: none;
+ }
+
+
+
+
+
+
+
