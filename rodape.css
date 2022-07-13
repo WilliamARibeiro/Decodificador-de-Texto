@@ -1,0 +1,45 @@
+.footer {
+  margin-top: 50rem;
+  margin-left: 35rem;
+  display: inline-block;
+  background: none;
+  text-align: center;
+  padding-bottom: 2rem;
+
+  
+}
+
+.copyright {
+  font-weight: bold;
+  color: purple;
+  background: none;
+ }
+ .copyright:hover {
+  color: whitesmoke;
+ }
+
+.linkedin img {
+  border: solid 2px purple;
+  border-radius: 50%;
+   max-width:50px;
+    max-height:50px;
+    width: auto;
+    height: auto;
+}
+ .linkedin img:hover {
+  border-color: whitesmoke;
+}
+
+.github img {
+  border:  solid 2px purple;
+  border-radius: 50%;
+    max-width:50px;
+    max-height:50px;
+    width: auto;
+    height: auto;
+
+ 
+ }
+  .github :hover {
+  border-color: whitesmoke;
+
