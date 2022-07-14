@@ -181,7 +181,7 @@ main{
       
     }
     .message-box-div img{
-      display:'none';
+      display:none;
     }
     .btn-copiar{
       top:8rem;
